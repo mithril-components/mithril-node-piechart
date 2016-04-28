@@ -1,0 +1,26 @@
+{
+  "name": "mithril_node_piechart",
+  "version": "1.0.0",
+  "description": "Pie chart component for Mithril NodeJS",
+  "main": "test.js",
+  "dependencies": {
+    "mithril": "^0.2.0"
+  },
+  "devDependencies": {
+    "mithril-node-render": "^0.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mithril-components/mithril_node_piechart.git"
+  },
+  "keywords": [
+    "mithril",
+    "pie",
+    "char",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/mithril-components/mithril_node_piechart/issues"
+  },
+  "homepage": "https://github.com/mithril-components/mithril_node_piechart#readme"
+}

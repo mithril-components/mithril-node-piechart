@@ -1,0 +1,46 @@
+@import './bower_components/bootstrap/less/variables.less';
+@import './bower_components/bootstrap/less/mixins.less';
+
+/* GENERALS */
+
+ul
+{
+  list-style: none;
+}
+
+/* PIECHART CSS */
+
+.piechart
+{
+  display: inline-block;
+
+  svg
+  {
+    float: left;
+  }
+
+  ul.piechart-legend
+  {
+    float: left;
+    padding: 3px 6px;
+
+    li
+    {
+      position: relative;
+      padding-left: 2em;
+      margin-bottom: -3px;
+      font-size: 1em;
+    }
+
+    span
+    {
+      position: absolute;
+      top: 3px;
+      left: 0;
+      height: 0.8em;
+      width: 1.5em;
+      display: inline-block;
+      margin-right: 3px;
+    }
+  }
+}
