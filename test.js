@@ -7,6 +7,13 @@ const render 	  = require('mithril-node-render')
 const piechart    = require('./piechart');
 
 
+const html = m('html', [
+    m('head', [
+        m('link', )
+    ]),
+    m('body', [
+    ])
+])
 
 // JSON containing data to create a basic SVG pie chart.
 const data = {
@@ -30,6 +37,7 @@ const innerHtml = render(view);
 
 console.log(innerHtml);
 
+
 /* Generate the output HTML for in-browser test */
-const base = fs.readFileSync('template.html', 'UTF-8');
-fs.writeFileSync('index.html', base.replace('%CONTENT%', innerHtml), 'UTF-8');
+//const base = fs.readFileSync('template.html', 'UTF-8');
+fs.writeFileSync('index.html', innerHtml, 'UTF-8');

@@ -3,14 +3,14 @@ mithril_node_piechart
 
 A simple SVG pie chart component for Mithril JS and NodeJS.
 
+![alt 'Piechart'](./piechart_screenshot.png)
+
 Usage
 -----
 
 ```
 // JSON containing data to create a basic SVG pie chart.
 const data = {
-	width: 	100,
-	height: 100,
 	parts:
 	[
         { title: "Part A",    value : 180,  color: "#02B3E7" },
@@ -30,11 +30,8 @@ const view = piechart.view(ctrl);
 Run the following command:
 
 ```
-node test/test.js
+node test.js
 ````
-
-It will generate a HTML file containing a SVG pie chart : [index.html](./public/index.html).
-
 
 Options
 --------
