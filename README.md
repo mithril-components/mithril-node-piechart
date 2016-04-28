@@ -9,8 +9,8 @@ Usage
 ```
 // JSON containing data to create a basic SVG pie chart.
 const data = {
-	parts:
-	[
+    parts:
+    [
         { title: "Part A",    value : 180,  color: "#02B3E7" },
         { title: "Part B",    value:  60,   color: "#CFD3D6" },
         { title: "Part C",    value : 50,   color: "#736D79" },
