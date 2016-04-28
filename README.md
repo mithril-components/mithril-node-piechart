@@ -1,9 +1,8 @@
 mithril_node_piechart
 =====================
 
-A simple SVG pie chart component for Mithril JS and NodeJS.
-
-![alt 'Piechart'](./piechart_screenshot.png)
+![alt 'Piechart'](./piechart_screenshot.png)<br><br>
+A simple SVG pie chart component for Mithril JS and NodeJS.<br>
 
 Usage
 -----
@@ -11,8 +10,8 @@ Usage
 ```
 // JSON containing data to create a basic SVG pie chart.
 const data = {
-	parts:
-	[
+    parts:
+    [
         { title: "Part A",    value : 180,  color: "#02B3E7" },
         { title: "Part B",    value:  60,   color: "#CFD3D6" },
         { title: "Part C",    value : 50,   color: "#736D79" },
