@@ -1,5 +1,5 @@
 {
-  "name": "mithril_node_piechart",
+  "name": "mithril-node-piechart",
   "version": "1.0.0",
   "description": "Pie chart component for Mithril NodeJS",
   "main": "piechart.js",
