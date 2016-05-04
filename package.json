@@ -2,7 +2,7 @@
   "name": "mithril_node_piechart",
   "version": "1.0.0",
   "description": "Pie chart component for Mithril NodeJS",
-  "main": "test.js",
+  "main": "piechart.js",
   "dependencies": {
     "mithril": "^0.2.0"
   },
