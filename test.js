@@ -29,7 +29,3 @@ const view = piechart.view(ctrl);
 const innerHtml = render(view);
 
 console.log(innerHtml);
-
-/* Generate the output HTML for in-browser test */
-const base = fs.readFileSync('template.html', 'UTF-8');
-fs.writeFileSync('index.html', base.replace('%CONTENT%', innerHtml), 'UTF-8');
