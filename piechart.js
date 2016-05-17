@@ -120,6 +120,6 @@ const view = (ctrl) => {
 
 // Export all previous functions.
 module.exports = {
-  controller,
-  view
+    controller,
+    view
 }
