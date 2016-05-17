@@ -2,6 +2,8 @@ mithril_node_piechart
 =====================
 A simple SVG pie chart component for Mithril JS and NodeJS.
 
+![Pie chart screenshot](screenshot.png)
+
 Usage
 =====
 
